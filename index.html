@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK MANAGER</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carattere&family=Condiment&family=Libertinus+Serif+Display&family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="apple-touch-icon.png" />
+</head>
+<body>
+    <nav id="navbar">
+        <div id="h11">
+            <div id="logo"><img id="img" src="apple-touch-icon.png" alt="Logo"></div>
+            <h1>Task Manager</h1>
+        </div>
+        <div id="ndiv">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="/">Tasks</a>
+            <a href="/">About Us</a>
+        </div>
+    </nav>
+    <main id="mainbox">
+        <div id="div1">
+            <div class="task">
+               <h6>New Task</h6>
+               <div id="new_task">
+                <p>&#x1F449</p>
+                <p>Create a new task.</p>
+               </div>
+               <div id="bt">
+                <a href="/" id="btn" >Create</a>
+               </div>
+               
+            </div>
+            <div class="pretask">
+               <h6>Your Tasks</h6>
+               <div id="new_task">
+                <p>&#x1F449</p>
+                <p>Your current tasks.</p>
+               </div>
+               <div id="bt">
+                <a href="/" id="btn" >Tasks</a>
+               </div>
+            </div>
+        </div>
+        <div id="div2">
+            <div class="achive">
+               <h6>Milestone</h6>
+               <div id="new_task">
+                <p>&#x1F449</p>
+                <p>Your achivements.</p>
+               </div>
+               <div id="bt">
+                <a href="/" id="btn" class="btn_ach" >Achivements</a>
+               </div>
+            </div>
+            <div class="history">
+              <h6>History</h6>
+              <div id="new_task">
+                <p>&#x1F449</p>
+                <p>Analyse your tasks.</p>
+               </div>
+              <div id="bt">
+                <a href="/" id="btn" >History</a>
+               </div>
+            </div>
+        </div>
+    </main>
+    <section class="feedback">
+        <form id="frm">
+            <lable id="name">Your name:</lable>
+            <input type="text" id="name" placeholder="Enter your name">
+            <br>
+            <lable id="email">Email:</lable>
+            <input type="email" id="email" placeholder="Enter your email">
+            <br>
+            <p id="textarea">Any Question:</p>
+            <textarea rows="8" cols="40" placeholder="Enter your Query"></textarea>
+        </form>
+    </section>
+    <footer class="foot">
+        <p>&copy All rights reserved | 2025</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>
