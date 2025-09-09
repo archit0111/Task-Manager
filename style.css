@@ -29,11 +29,11 @@ h1{
 #logo{
     align-content: center;
     padding-left: 50px;
-    padding-right: 0%;
 }
 #img{
     height: 2em;
     width: auto;
+    margin-right: -2em;
 }
 #navbar div{
     background-color: #6a89a7;
