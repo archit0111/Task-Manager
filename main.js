@@ -43,3 +43,9 @@ function btBorder(){
         bt.style.textShadow = "1em 1em 2em 0.2em #bfccd8;";
     }
 }
+function option(){
+    let op=document.getElementById("option");
+    if(op){
+        op
+    }
+}
