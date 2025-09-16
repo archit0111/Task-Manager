@@ -12,9 +12,10 @@ body{
     color: #384959;
     padding: 1em;
     padding-left: 1em;
-    padding-top: 6px;
-    font-size: 3em;
+    padding-top: 7px;
+    font-size: 4em;
     margin: 0px;
+    font-family: Carattere;
 }
 #divb{
     background-color: #d7e6f4;
@@ -48,4 +49,16 @@ label{
 #submit_btn:hover{
     border: 1px solid #384959;
     background-color: #6a89a7;
+}
+#after_click{
+    display: none;
+    color: #384959;
+}
+.foot{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 2em;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
 }

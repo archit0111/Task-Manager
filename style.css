@@ -55,9 +55,31 @@ h1{
     text-shadow: 2px 2px  5px #d7e6f4;
     font-size:1.2em;
 }
-.option_list{
+#option_list{
     display: none;
+    position: absolute;
+    right: 0px;
+    top: 5em;
+    border: 2px solid #384959;
+    border-radius: 5px;
+    background: none;
+    width: 5em;
+    padding: 2px;
 }
+#option_list a{
+    text-decoration: none;
+    color: #384959;
+    background-color: #bdddfc;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 2px;
+}
+#option_list a:hover{
+    background-color: #d7e6f4;
+    border: 1px solid black;
+}
+
 #mainbox{
     padding-top: 2rem;
     background-image: url(clock_sy.svg);
@@ -160,6 +182,17 @@ textarea{
 textarea{
     box-sizing: border-box;
 }
+#submit_btn{
+    border: 1px solid #384959;
+    border-radius: 5px;
+    color: #384959;
+    height: 30px;
+    width: auto;
+}
+#submit_btn:hover{
+    border: 1px solid #384959;
+    background-color: #6a89a7;
+}
 @media (max-width:900px) {
     #frm textarea{
         height: 3em;
@@ -224,9 +257,6 @@ textarea{
         height: 1.5em;
         width: auto;
     }
-    .option_list{
-    display: none;
-}
     #mainbox{
     background-image: none;
     }

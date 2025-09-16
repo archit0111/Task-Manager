@@ -23,17 +23,15 @@
             <a id="option" onclick="option()"><img src="listdrop.svg" alt="Option"></a>
             <a id="at" href="index.html">Home</a>
             <a id="at" href="contact.html">Contact</a>
-            <a id="at" href="/">Tasks</a>
-            <a id="at" href="/">About Us</a>
+            <a id="at" href="tasks.html">Tasks</a>
+            <a id="at" href="Aboutus.html">About Us</a>
         </div>
-        <div class="option_list">
-            <ul>
-                <li>Home</li>
-                <li>Contact</li>
-                <li>Tasks</li>
-                <li>About Us</li>
-            </ul>
-        </div>
+        <section id="option_list">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="tasks.html">Task</a>
+            <a href="Aboutus.html">About Us</a>
+        </section>
     </nav>
 
     <!-- Option-Boxes -->
@@ -48,7 +46,7 @@
                 <p>Create a new task.</p>
                </div>
                <div id="bt">
-                <a href="/" id="btn" >Create</a>
+                <a href="tasks.html" id="btn" >Create</a>
                </div>
                
             </div>
@@ -59,7 +57,7 @@
                 <p>Your current tasks.</p>
                </div>
                <div id="bt">
-                <a href="/" id="btn" >Tasks</a>
+                <a href="tasks.html" id="btn" >Tasks</a>
                </div>
             </div>
         </div>
@@ -71,7 +69,7 @@
                 <p>Your achivements.</p>
                </div>
                <div id="bt">
-                <a href="/" id="btn" class="btn_ach" >Achivements</a>
+                <a href="achive.html" id="btn" class="btn_ach" >Achivements</a>
                </div>
             </div>
             <div class="history">
@@ -81,7 +79,7 @@
                 <p>Analyse your tasks.</p>
                </div>
               <div id="bt">
-                <a href="/" id="btn" >History</a>
+                <a href="history.html" id="btn" >History</a>
                </div>
             </div>
         </div>
@@ -98,7 +96,8 @@
             <input type="email" id="email" placeholder="Enter your email">
             <br>
             <p id="textarea">Any Question:</p>
-            <textarea rows="8" cols="40" placeholder="Enter your Query"></textarea>
+            <textarea rows="8" cols="40" placeholder="Enter your Query"></textarea><br>
+            <input type="submit" id="submit_btn" value="Submit">
         </form>
     </section>
     <footer class="foot">

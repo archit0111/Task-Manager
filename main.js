@@ -44,8 +44,8 @@ function btBorder(){
     }
 }
 function option(){
-    let op=document.getElementById("option");
+    let op=document.getElementById("option_list");
     if(op){
-        op
+        op.style.display='block';
     }
 }
