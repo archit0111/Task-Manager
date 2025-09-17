@@ -6,6 +6,7 @@
     <title>Task Manager | Tasks</title>
     <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Condiment&family=Libertinus+Serif+Display&family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="tasks.css">
+    <link rel="icon" href="apple-touch-icon.png">
 </head>
 <body>
     <header id="head">
@@ -19,8 +20,28 @@
                 <p>Create a new task for your journey.</p>
                </div>
                <div id="bt">
-                <a href="/" id="btn" >Create</a>
+                <button id="btn" onclick="creat()">Create</button>
                </div>
     </main>
+    <section id="s1">
+        <div id="creat">
+            <form id="user_task">
+                <input type="text" id="user_t" placeholder="Enter new task" required><br>
+                <input type="time" id="time" required>
+                <button type="submit" id="addbtn">ADD</button>
+            </form>
+        </div>
+        <div id="show">
+            <h5>Scheduled Tasks</h5>
+            <div id="showm">
+                <section id="sec1"><p id="sec1p">Tasks</p></section>
+                <section id="sec2"><p id="sec2p">Timer </p></section>
+            </div>
+        </div>
+    </section>
+    <footer class="foot">
+        <p>&copy All rights reserved | 2025</p>
+    </footer>
+    <script src="task.js"></script>
 </body>
 </html>
