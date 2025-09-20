@@ -181,3 +181,22 @@ h5{
         font-size: 0.8em;
     }
 }
+
+#hist{
+    text-align: center;
+    margin-top: 4em;
+}
+#hist  a{
+    color: #384959;
+    background: none;
+    border: 0.5px solid #384959;
+    font-size: medium;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.4em;
+    display:none;
+}
+#hist  a:hover{
+    box-shadow: 0px 0px 5px 4px #384959;
+    background-color: #d7e6f4
+}

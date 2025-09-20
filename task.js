@@ -19,9 +19,11 @@ document.getElementById("addbtn").addEventListener("click",function(event){
         document.getElementById("sec2").appendChild(newdiv2);
         let a = document.getElementById("show");
         a.style.display="block";
+        let b = document.getElementById("g_t_h");
+        b.style.display="inline-block";
         let time= document.getElementById("time").value;
         newdiv1.textContent=task;
-        if(time===""){
+        if(time==="" || time=="00:00"){
             newdiv2.textContent="--:--:--";
             return;
         }
@@ -64,8 +66,7 @@ function update_timer(total_sec,newdiv2){
 
 
 function update_hist(task,time,c){
-    localStorage.setItem("t",task);
-    localStorage.setItem("ti",time);
+    localStorage.setItem("t"+c,task);
+    localStorage.setItem("ti"+c,time);
     localStorage.setItem("con",c);
-    window.location.href="history.html";
 }
