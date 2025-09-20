@@ -4,14 +4,20 @@ function showHistory(){
         alert("You not completed any task yet.");
         return;
     }
-    while(c!=0){
+    setInterval(()=>{
+        if(c>2){
+        localStorage.clear();
+        return;
+        }
         let ta = localStorage.getItem("t"+c);
         let ti = localStorage.getItem("ti"+c);
         if(ta!=null){
             Show_h(ta,ti,c);
             c--;
+            if(c==0)
+                clearInterval();
         }
-    }
+    },1000)
 }
 function Show_h(ta,ti,c){
     let new_div = document.createElement("div");
